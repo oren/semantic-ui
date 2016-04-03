@@ -5,11 +5,25 @@
     <meta charset="utf-8">
     <title>semantic ui</title>
     <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="semantic.min.js"></script>
+    <script type="text/javascript" src="lib/semantic.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
-    <link rel="stylesheet" href="semantic.min.css">
+    <link rel="stylesheet" href="lib/semantic.min.css">
+
+    <script type="text/javascript" src="lib/rating.min.js"></script>
+    <link rel="stylesheet" href="lib/rating.min.css">
+
   </head>
   <body>
+    <div class="ui search">
+      <div class="ui icon input">
+        <input class="prompt" type="text" placeholder="Search countries...">
+        <i class="search icon"></i>
+      </div>
+      <div class="results"></div>
+    </div>
+
+    <div class="ui heart rating" data-rating="1" data-max-rating="3"></div>
+
     <div class="ui red menu">
       <h3 class="header item">Brand</h3>
       <a class="active item">tab 1</a>
@@ -28,11 +42,14 @@
       <div class="column">
         Tail fatback ground round, prosciutto drumstick alcatra pastrami ribeye tongue strip steak pork loin sausage sirloin jowl cupim. Meatball pork belly porchetta leberkas. Corned beef doner rump ground round kielbasa brisket shankle swine cow hamburger short loin shank tenderloin tri-tip. Landjaeger pancetta bacon tail. Kielbasa filet mignon flank t-bone salami leberkas ham fatback tri-tip strip steak, biltong picanha. Andouille pancetta strip steak t-bone.
       </div>
-      <div class="column">
-        foo bar
+      <div class="column mobile only blue">
+          <div class="ui horizontal divider"><i class="github icon"></i></div>
+          <p>
+            show this column only on mobile
+          </p>
       </div>
-      <div class="column">
-        foo bar
+      <div class="column tablet only green">
+        show this column only on tablet
       </div>
     </div>
   </body>
