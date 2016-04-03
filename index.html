@@ -9,14 +9,21 @@
     <script type="text/javascript" src="app.js"></script>
     <link rel="stylesheet" href="lib/semantic.min.css">
 
-    <script type="text/javascript" src="lib/rating.min.js"></script>
-    <link rel="stylesheet" href="lib/rating.min.css">
+    <!-- <script type="text/javascript" src="lib/rating.min.js"></script> -->
+    <!-- <link rel="stylesheet" href="lib/rating.min.css"> -->
 
   </head>
   <body>
+    <div class="ui red menu">
+      <h3 class="header item">Brand</h3>
+      <a class="active item">tab 1</a>
+      <a class="item">tab 2</a>
+      <a class="item">tab 3</a>
+    </div>
+
     <div class="ui search">
       <div class="ui icon input">
-        <input class="prompt" type="text" placeholder="Search countries...">
+        <input class="prompt" type="text" placeholder="Search contacts...">
         <i class="search icon"></i>
       </div>
       <div class="results"></div>
@@ -24,12 +31,79 @@
 
     <div class="ui heart rating" data-rating="1" data-max-rating="3"></div>
 
-    <div class="ui red menu">
-      <h3 class="header item">Brand</h3>
-      <a class="active item">tab 1</a>
-      <a class="item">tab 2</a>
-      <a class="item">tab 3</a>
+    <div class="ui link cards">
+      <div class="card">
+        <div class="image">
+          <img src="http://semantic-ui.com/images/avatar/large/steve.jpg">
+        </div>
+        <div class="content">
+          <div class="header">Steve Jobes</div>
+          <div class="meta">
+            <a>Friends</a>
+          </div>
+          <div class="description">
+            Steve is Apple's CEO living in SF.
+          </div>
+        </div>
+        <div class="extra content">
+          <span class="right floated">
+            Joined in 2013
+          </span>
+          <span>
+            <i class="user icon"></i>
+            75 Friends
+          </span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="image">
+          <img src="http://semantic-ui.com/images/avatar2/large/molly.png">
+        </div>
+        <div class="content">
+          <div class="header">Molly</div>
+          <div class="meta">
+            <span class="date">Coworker</span>
+          </div>
+          <div class="description">
+            Molly is a personal assistant living in Paris.
+          </div>
+        </div>
+        <div class="extra content">
+          <span class="right floated">
+            Joined in 2011
+          </span>
+          <span>
+            <i class="user icon"></i>
+            35 Friends
+          </span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="image">
+          <img src="http://semantic-ui.com/images/avatar2/large/elyse.png">
+        </div>
+        <div class="content">
+          <div class="header">Elyse</div>
+          <div class="meta">
+            <a>Coworker</a>
+          </div>
+          <div class="description">
+            Elyse is a copywriter working in New York.
+          </div>
+        </div>
+        <div class="extra content">
+          <span class="right floated">
+            Joined in 2014
+          </span>
+          <span>
+            <i class="user icon"></i>
+            151 Friends
+          </span>
+        </div>
+      </div>
     </div>
+
+
     <div class="ui four column grid">
       <div class="column">
         <div class="ui message red">
@@ -43,13 +117,16 @@
         Tail fatback ground round, prosciutto drumstick alcatra pastrami ribeye tongue strip steak pork loin sausage sirloin jowl cupim. Meatball pork belly porchetta leberkas. Corned beef doner rump ground round kielbasa brisket shankle swine cow hamburger short loin shank tenderloin tri-tip. Landjaeger pancetta bacon tail. Kielbasa filet mignon flank t-bone salami leberkas ham fatback tri-tip strip steak, biltong picanha. Andouille pancetta strip steak t-bone.
       </div>
       <div class="column mobile only blue">
-          <div class="ui horizontal divider"><i class="github icon"></i></div>
+          <div class="ui horizontal divider"><i class="mobile icon"></i></div>
           <p>
             show this column only on mobile
           </p>
       </div>
       <div class="column tablet only green">
-        show this column only on tablet
+        <div class="ui horizontal divider"><i class="tablet icon"></i></div>
+        <p>
+          show this column only on tablet
+        </p>
       </div>
     </div>
   </body>
