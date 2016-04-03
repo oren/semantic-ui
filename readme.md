@@ -14,8 +14,8 @@ http://semantic-ui.com
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/components/reset.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/components/site.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/components/card.min.css">
-
   </head>
+
   <body>
     <div class="ui link cards">
       <div class="card">
@@ -44,5 +44,7 @@ http://semantic-ui.com
       ...
       ...
       ...
-    </body>
+    </div>
+  </body>
+</html>
 ```
